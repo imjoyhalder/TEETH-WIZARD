@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "treatment": "Dental Implant",
+      "image": "https://img.freepik.com/free-vector/dental-implant-tooth-set-closeup-model_1284-15060.jpg",
+      "description": "Osseointegration, a biologic process in which materials like titanium or zirconia form a bond to bone.",
+      "cost": 700
+    },
+    {
+      "id": 2,
+      "treatment": "Cracked Tooth",
+      "image": "https://st3.depositphotos.com/1003476/34064/i/450/depositphotos_340640296-stock-photo-3d-render-of-jaw-with.jpg",
+      "description": "When a crack occurs in your tooth, it is referred to as a fractured tooth or cracked tooth.",
+      "cost": 300
+    },
+    {
+      "id": 3,
+      "treatment": "Wisdom Teeth",
+      "image": "https://media.istockphoto.com/id/1091303816/photo/healthy-teeth-and-wisdom-tooth-with-mesial-impaction-medically-accurate-tooth-3d-illustration.jpg?s=612x612&w=0&k=20&c=ozwvW2-lny2J12WTkCELwav8VjF4j4e8xZ_vIR0XSX8=",
+      "description": "A third pair of molars at the back of the mouth that usually emerge in late teens or early twenties.",
+      "cost": 100
+    },
+    {
+      "id": 4,
+      "treatment": "Teeth Whitening",
+      "image": "https://t4.ftcdn.net/jpg/00/23/84/21/360_F_23842166_vDYcCEpwueRffVOiCPYFy9cIP8rolttX.jpg",
+      "description": "A cosmetic procedure used to lighten the color of the teeth and remove stains and discoloration.",
+      "cost": 250
+    },
+    {
+      "id": 5,
+      "treatment": "Dental Implant",
+      "image": "https://img.freepik.com/free-vector/dental-implant-tooth-set-closeup-model_1284-15060.jpg",
+      "description": "Osseointegration, a biologic process in which materials like titanium or zirconia form a bond to bone.",
+      "cost": 700
+    },
+    {
+      "id": 6,
+      "treatment": "Cracked Tooth",
+      "image": "https://st3.depositphotos.com/1003476/34064/i/450/depositphotos_340640296-stock-photo-3d-render-of-jaw-with.jpg",
+      "description": "When a crack occurs in your tooth, it is referred to as a fractured tooth or cracked tooth.",
+      "cost": 300
+    },
+    {
+      "id": 7,
+      "treatment": "Wisdom Teeth",
+      "image": "https://media.istockphoto.com/id/1091303816/photo/healthy-teeth-and-wisdom-tooth-with-mesial-impaction-medically-accurate-tooth-3d-illustration.jpg?s=612x612&w=0&k=20&c=ozwvW2-lny2J12WTkCELwav8VjF4j4e8xZ_vIR0XSX8=",
+      "description": "A third pair of molars at the back of the mouth that usually emerge in late teens or early twenties.",
+      "cost": 100
+    },
+    {
+      "id": 8,
+      "treatment": "Teeth Whitening",
+      "image": "https://t4.ftcdn.net/jpg/00/23/84/21/360_F_23842166_vDYcCEpwueRffVOiCPYFy9cIP8rolttX.jpg",
+      "description": "A cosmetic procedure used to lighten the color of the teeth and remove stains and discoloration.",
+      "cost": 250
+    }
+  ]

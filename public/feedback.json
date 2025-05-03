@@ -1,0 +1,63 @@
+[
+    {
+      "reviewId": 1,
+      "name": "Hogue Smith",
+      "userImg": "https://images.unsplash.com/photo-1618001789159-ffffe6f96ef2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2luZ2xlJTIwY2xpZW50fGVufDB8fDB8fHww",
+      "review": "Previously my teeth were crowded or crooked. These were not so good looking. After getting treated here, I feel much more confident."
+    },
+    {
+      "reviewId": 2,
+      "name": "Cyrus Nicole",
+      "userImg": "https://images.unsplash.com/photo-1625502709763-f5f3880c17ba?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2luZ2xlJTIwY2xpZW50fGVufDB8fDB8fHww",
+      "review": "My wisdom teeth were giving me so much trouble. My daily life was getting affected. Thanks to the doctor for fixing it."
+    },
+    {
+      "reviewId": 3,
+      "name": "Francis Hagalok",
+      "userImg": "https://images.unsplash.com/photo-1587622507001-40b941e437ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2luZ2xlJTIwY2xpZW50fGVufDB8fDB8fHww",
+      "review": "For some reasons I needed dental implant. My friend suggested Dr. Jakariya and I got great results!"
+    },
+    {
+      "reviewId": 4,
+      "name": "Elijah Naicker",
+      "userImg": "https://images.unsplash.com/photo-1726806387135-c8c48414a613?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHNpbmdsZSUyMGNsaWVudHxlbnwwfHwwfHx8MA%3D%3D",
+      "review": "Dr Jakariya is very good at teeth whitening. I took this treatment 3 times and every time it improved my smile!"
+    },
+    {
+      "reviewId": 5,
+      "name": "Sophie Lin",
+      "userImg": "https://images.unsplash.com/photo-1719558461938-8f6aa6118758?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHNpbmdsZSUyMGNsaWVudHxlbnwwfHwwfHx8MA%3D%3D",
+      "review": "The environment was super friendly. I came in nervous but left with a bright smile!"
+    },
+    {
+      "reviewId": 6,
+      "name": "Rajeev Kumar",
+      "userImg": "https://images.unsplash.com/photo-1699205016685-0d8da40d3025?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHNpbmdsZSUyMGNsaWVudHxlbnwwfHwwfHx8MA%3D%3D",
+      "review": "Great service and on-time treatment. The dentist explained everything clearly."
+    },
+    {
+      "reviewId": 7,
+      "name": "Emily Dawson",
+      "userImg": "https://images.unsplash.com/photo-1659353220660-710d4c28c673?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHNpbmdsZSUyMGNsaWVudHxlbnwwfHwwfHx8MA%3D%3D",
+      "review": "I had gum issues that were resolved within weeks. Very satisfied with the care!"
+    },
+    {
+      "reviewId": 8,
+      "name": "Zayn Malik",
+      "userImg": "https://images.unsplash.com/photo-1658462555746-7264d7c14dcb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTk4fHxzaW5nbGUlMjBjbGllbnR8ZW58MHx8MHx8fDA%3D",
+      "review": "A friend recommended this clinic, and I'm so glad I came. The professionalism is top-notch."
+    },
+    {
+      "reviewId": 9,
+      "name": "Aarushi Sharma",
+      "userImg": "https://images.unsplash.com/photo-1554250660-d8ba2d397fed?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjA0fHxzaW5nbGUlMjBjbGllbnR8ZW58MHx8MHx8fDA%3D",
+      "review": "Everything from booking to treatment was smooth. My braces were handled excellently."
+    },
+    {
+      "reviewId": 10,
+      "name": "James Carter",
+      "userImg": "https://images.unsplash.com/photo-1644028744846-eeaeef34d199?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjIwfHxzaW5nbGUlMjBjbGllbnR8ZW58MHx8MHx8fDA%3D",
+      "review": "Cavity issues gone! Now I can enjoy sweets without pain. Thanks to the amazing team!"
+    }
+  ]
+  
