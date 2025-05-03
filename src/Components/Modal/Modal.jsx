@@ -3,11 +3,55 @@ import React from 'react';
 const Modal = () => {
     return (
         <div>
-           
+
             <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
+                
                 <div className="modal-box">
-                    <h3 className="font-bold text-lg">Hello!</h3>
-                    <p className="py-4">Press ESC key or click the button below to close</p>
+                    <h1 className='text-2xl mb-6 text-center'>Fill Up Appointment Form</h1>
+                    <form className='grid grid-cols-1 gap-4 mx-auto' action="">
+                        <div className='flex items-center'>
+
+                            <input type="text"
+                                placeholder="First Name"
+                                name='firstName'
+                                className="input input-bordered input-primary w-full max-w-xs" />
+                        </div>
+                        <div>
+
+                            <input type="text"
+                                name='lastName'
+                                placeholder="Last Name"
+                                className="input input-bordered input-primary w-full max-w-xs" />
+                        </div>
+                        <div>
+
+                            <input type="text"
+                                name='email'
+                                placeholder="Email"
+                                className="input input-bordered input-primary w-full max-w-xs" />
+                        </div>
+                        <div>
+
+                            <input type="text"
+                                name='number'
+                                placeholder="Phone Number"
+                                className="input input-bordered input-primary w-full max-w-xs" />
+                        </div>
+                        <div>
+
+                            <input type="date"
+                                name='date'
+                                placeholder="Appointment date"
+                                className="input input-bordered input-primary w-full max-w-xs" />
+                        </div>
+                        <div>
+                            <input type="text"
+                                name='address'
+                                placeholder="Address"
+                                className="input input-bordered input-primary w-full max-w-xs" />
+                        </div>
+
+                    </form>
                     <div className="modal-action">
                         <form method="dialog">
                             {/* if there is a button in form, it will close the modal */}
