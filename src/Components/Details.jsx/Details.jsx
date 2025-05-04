@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Modal from '../Modal/Modal';
+import { autContext } from '../AuthProvider/AuthProvider';
 
 const Details = () => {
     const  { treatment, image, description, cost, id } = useLoaderData()
-    console.log(treatment, description)
+    //console.log(treatment, description)
   
+    // const contextValue = useContext(autContext)
+    // console.log(contextValue)
     return (
         <div
             className="hero min-h-screen"

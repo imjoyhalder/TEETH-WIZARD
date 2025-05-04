@@ -5,6 +5,8 @@ import AllTreatments from "../Components/AllTreatments/AllTreatments";
 import MyAppointments from "../Components/MyAppointments/MyAppointments";
 import Profile from "../Components/Profile/Profile";
 import Details from "../Components/Details.jsx/Details";
+import Register from "../Components/Register/Register";
+import Login from "../Components/Login/Login";
 
 
 
@@ -50,6 +52,14 @@ export const router = createBrowserRouter([
                     
                     return singleData          
                 }
+            }, 
+            {
+                path: '/register', 
+                element: <Register></Register>
+            }, 
+            {
+                path: '/login', 
+                element: <Login></Login>
             }
         ]
     }
