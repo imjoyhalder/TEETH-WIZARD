@@ -11,22 +11,22 @@ const AuthProvider = ({ routes }) => {
 
 
     const handleRegister = (email, password) => {
-        createUserWithEmailAndPassword(auth, email, password)
+        return createUserWithEmailAndPassword(auth, email, password)
     }
 
     const handleLogin = (email, password) => {
-        signInWithEmailAndPassword(auth, email, password)
+        return signInWithEmailAndPassword(auth, email, password)
     }
 
     const googleAuthProvider = new GoogleAuthProvider()
 
     const handleGoogleLogin = () => {
-        signInWithPopup(auth, googleAuthProvider)
+        return signInWithPopup(auth, googleAuthProvider)
     }
 
 
     const handleLogOut = () => {
-        signOut(auth)
+       return  signOut(auth)
     }
 
     const value = {
@@ -38,7 +38,7 @@ const AuthProvider = ({ routes }) => {
 
     useEffect(()=>{
         const unsubscribe = onAuthStateChanged(auth, (currentUser)=>{
-            console.log(currentUser)
+            //console.log(currentUser)
 
             return ()=>{
                 unsubscribe()
