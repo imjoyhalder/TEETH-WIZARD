@@ -38,7 +38,7 @@ const AuthProvider = ({ routes }) => {
 
     useEffect(()=>{
         const unsubscribe = onAuthStateChanged(auth, (currentUser)=>{
-            //console.log(currentUser)
+            console.log(currentUser)
 
             return ()=>{
                 unsubscribe()
