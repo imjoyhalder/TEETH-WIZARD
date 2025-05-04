@@ -1,6 +1,11 @@
 import React from 'react';
 
 const Modal = () => {
+    const handleSubmit = e =>{
+        e.preventDefault()
+        
+
+    }
     return (
         <div>
 
@@ -8,7 +13,7 @@ const Modal = () => {
                 
                 <div className="modal-box">
                     <h1 className='text-2xl mb-6 text-center'>Fill Up Appointment Form</h1>
-                    <form className='grid grid-cols-1 gap-4 mx-auto' action="">
+                    <form onSubmit={handleSubmit} className=' space-y-4  mx-auto' action="">
                         <div className='flex items-center'>
 
                             <input type="text"
@@ -50,7 +55,7 @@ const Modal = () => {
                                 placeholder="Address"
                                 className="input input-bordered input-primary w-full max-w-xs" />
                         </div>
-
+                        <button type='submit' className='btn btn-primary'>Submit</button>
                     </form>
                     <div className="modal-action">
                         <form method="dialog">
