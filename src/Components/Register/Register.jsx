@@ -3,7 +3,7 @@ import { autContext } from '../AuthProvider/AuthProvider';
 import { NavLink } from 'react-router-dom';
 
 const Register = () => {
-    const { handleRegister } = useContext(autContext);
+    const { handleRegister, manageProfile } = useContext(autContext);
     const [error, setError] = useState('')
 
     const handleRegisterEmailPassword = (e) => {
@@ -14,6 +14,11 @@ const Register = () => {
         const name = e.target.name.value 
         const image = e.target.image.value
         const conPassword = e.target.conPassword.value
+
+        if(password.length<6){
+            setError('Password must be greater than 5 character')
+            return 
+        }
 
         if(password!== conPassword){
             setError("Password didn't match")
@@ -28,10 +33,11 @@ const Register = () => {
         
         handleRegister(email, password)
             .then(result => {
-                console.log(result)
+                manageProfile(name,image)
             })
             .catch(error => {
                 console.log("Error: ", error)
+                setError(error)
             })
     }
 
@@ -53,7 +59,7 @@ const Register = () => {
                     <div>
                         <label className="block text-sm  mb-1">Image</label>
                         <input
-                            type="email"
+                            type="text"
                             name='image'
                             placeholder="Picture"
                             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"

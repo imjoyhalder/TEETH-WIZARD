@@ -1,9 +1,13 @@
 import React, { useContext } from 'react';
 import { autContext } from '../AuthProvider/AuthProvider';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 
 const Login = () => {
     const { handleLogin, handleGoogleLogin, handleLogOut } = useContext(autContext);
+
+    const navigate = useNavigate()
+    const location = useLocation()
+    console.log(location)
 
     const handleLoginEmailPassword = (e) => {
         e.preventDefault();
@@ -13,14 +17,25 @@ const Login = () => {
 
         handleLogin(email, password)
             .then((result) => {
-                console.log('User logged in:', result.user);
-                // You can redirect here or show success message
+                navigate(location.state.from)
             })
             .catch((error) => {
                 console.error('Login failed:', error.message);
                 // Optionally show error message to user
             });
     };
+
+    const googleLogin = () => {
+        handleGoogleLogin()
+            .then((result) => {
+                navigate(location.state.form)
+                console.log(location.state.form)
+            })
+            .catch((error) => {
+                console.error('Login failed:', error.message);
+                // Optionally show error message to user
+            });
+    }
 
     return (
         <div className="flex items-center justify-center min-h-screen px-4 ">
@@ -64,7 +79,7 @@ const Login = () => {
 
                 <div className="mt-6 flex justify-between gap-4">
                     <button
-                        onClick={handleGoogleLogin}
+                        onClick={googleLogin}
                         className="w-1/2 bg-red-500 text-white py-2 rounded-md hover:bg-red-600 transition duration-200"
                     >
                         Google
@@ -82,7 +97,6 @@ const Login = () => {
                         Register now
                     </NavLink>
                 </p>
-                <button onClick={handleLogOut} className='btn btn-primary'>Log Out</button>
             </div>
         </div>
     );

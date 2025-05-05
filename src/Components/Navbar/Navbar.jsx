@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css'
+import { autContext } from '../AuthProvider/AuthProvider';
 
 
 const Navbar = () => {
+
+    const { handleLogOut, user } = useContext(autContext)
+    console.log(user)
     return (
         <div className='min-h-20 px-6 text-white bg-blue-950  flex justify-between items-center z-10  sticky top-0 shadow-md w-full'>
             <div>
@@ -18,7 +22,15 @@ const Navbar = () => {
                 <NavLink to='/profile' className={({ isActive }) => isActive ? 'text-green-600' : ''}>Profile</NavLink>
             </div>
             <div>
-                <NavLink to='/login'><button className='btn btn-primary'>Login</button></NavLink> 
+                {
+                    user ?
+                        <div className='flex gap-3 items-center'>
+                            <button onClick={handleLogOut} className='btn btn-primary'>Logout</button>
+                            <p>{user.displayName}</p>
+                        </div>
+                        :
+                        <NavLink to='/login'><button className='btn btn-primary'>Login</button></NavLink>
+                }
             </div>
         </div>
 
